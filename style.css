@@ -1,0 +1,23 @@
+.header {
+  background: linear-gradient(45deg, #4183D7, #9b61b4);
+  font-size: 4em;
+  height: 4em;
+  font-weight: 500;
+  color: #F2F1EF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Raleway', sans-serif;
+  animation: full 2s;
+}
+@keyframes full {
+  0% {
+    height: 100vh;
+  }
+  30% {
+    height: 100vh;
+  }
+  100% {
+    height: 4em;
+  }
+}
